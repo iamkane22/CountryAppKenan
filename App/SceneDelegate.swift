@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create a new UIWindow with the given scene
         let newWindow = UIWindow(windowScene: windowScene)
         
-        let controller = MainViewController(viewModel: .init())
+        let controller = TabBarController()
         let navController = UINavigationController(rootViewController: controller)
         // Make the window visible
         newWindow.rootViewController = navController

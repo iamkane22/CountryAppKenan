@@ -54,6 +54,15 @@ extension CountryDTO: TitleSubtitleProtocol {
     }
 }
 
+
+extension CountryDTO: QuizProtocol {
+    var countryNameTitle: String {
+        name?.official ?? ""
+    }
+    
+    
+}
+
 // MARK: - CapitalInfo
 struct CapitalInfo: Codable {
     let latlng: [Double]?

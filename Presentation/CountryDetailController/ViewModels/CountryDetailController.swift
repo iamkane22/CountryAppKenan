@@ -48,7 +48,7 @@ final class CountryDetailController: BaseViewController {
     override func configureConstraint() {
         super.configureConstraint()
         loadingView.fillSuperview()
-        mapView.fillSuperviewSafeAreaLayoutGuide(padding: .init(top: 24, left: 0, bottom: 0, right: 0))
+        mapView.fillSuperviewSafeAreaLayoutGuide(padding: .init(top: 50, left: 0, bottom: 0, right: 0))
     }
     
     override func configureTargets() {
